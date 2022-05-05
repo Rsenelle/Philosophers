@@ -2,7 +2,7 @@ NAME		=	philosophers
 
 HEADER		=	philo.h
 
-SRC			=	main.c	 init_struct.c	utils.c		philo_thread_create.c
+SRC			=	life_cycle.c	main.c	 init_struct.c	utils.c		philo_thread_create.c	ft_time.c
 
 OBJ			=	$(SRC:.c=.o)
 
